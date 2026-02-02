@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Simulation de Taux d'Emprunt</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <h1>Simulation de Taux d'Emprunt</h1>
+      <div class="dropdown">
+          <label for="vehicle-type">Type de véhicule 🚗</label>
+          <select id="vehicle-type">
+              <option value="citadine">Citadine</option>
+              <option value="cabriolet">Cabriolet</option>
+              <option value="berline">Berline</option>
+              <!-- Ajoutez d'autres options ici -->
+          </select>
+      </div>
+      <div class="dropdown">
+          <label for="energy">Énergie</label>
+          <select id="energy">
+              <option value="electrique">Électrique</option>
+              <option value="essence">Essence</option>
+              <option value="hybride">Hybride</option>
+              <!-- Ajoutez d'autres options ici -->
+          </select>
+      </div>
+      <div class="dropdown">
+          <label for="manufacture-year">Année de fabrication</label>
+          <select id="manufacture-year">
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <!-- Ajoutez d'autres options ici -->
+          </select>
+      </div>
+      <div class="dropdown">
+          <label for="mileage">Kilométrage</label>
+          <select id="mileage">
+              <option value="5000-10000">5 000 - 10 000 km</option>
+              <option value="10000-15000">10 000 - 15 000 km</option>
+              <!-- Ajoutez d'autres options ici -->
+          </select>
+      </div>
+      <div class="dropdown">
+          <label for="num-persons">Nombre de personnes dans le foyer</label>
+          <select id="num-persons">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <!-- Ajoutez d'autres options ici -->
+          </select>
+      </div>
+      <button id="calculate-button">Calculer</button>
+      <p id="result"></p>
+
+      <div class="button-container">
+          <button class="test-button" id="test1-button">Exemple 1</button>
+          <button class="test-button" id="test2-button">Exemple 2</button>
+          <button class="test-button" id="test3-button">Exemple 3</button>
+      </div>
+  </div>
+  <script>
+      document.getElementById("calculate-button").addEventListener("click", function() {
+          // Récupérer les valeurs des menus déroulants et effectuer les calculs ici
+          // Mettez à jour le résultat dans l'élément avec id "result"
+      });
+
+      // Gérer les boutons de test
+      document.getElementById("test1-button").addEventListener("click", function() {
+          // Appliquer la configuration de test 1 aux menus déroulants
+          // Appeler la fonction de calcul (si nécessaire)
+      });
+
+      document.getElementById("test2-button").addEventListener("click", function() {
+          // Appliquer la configuration de test 2 aux menus déroulants
+          // Appeler la fonction de calcul (si nécessaire)
+      });
+
+      document.getElementById("test3-button").addEventListener("click", function() {
+          // Appliquer la configuration de test 3 aux menus déroulants
+          // Appeler la fonction de calcul (si nécessaire)
+      });
+  </script>
+</body>
+</html>
