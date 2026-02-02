@@ -1,7 +1,8 @@
 # Projet 2023 – GreenBank (simulateur d'emprunt)
 
 ## Informations projet :
-- ~Lien du [projet](https://asynconf.fr/docs/sujet_tournoi.pdf)~
+> [!IMPORTANT]
+> Le [lien du sujet](https://asynconf.fr/docs/sujet_tournoi.pdf) est obsolète.
 
 ## Informations divers
 - Pseudo Discord : ``omega4004``
