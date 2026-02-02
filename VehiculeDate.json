@@ -1,0 +1,42 @@
+{
+  "Type de véhicule": {
+    "0": {
+      "Nom": "Citadine", 
+      "Poid Moyen": "800-1300", 
+      "Note Eco": "8/10"
+    },
+    "1": {
+      "Nom": "Cabriolet", 
+      "Poid Moyen": "1300-2000", 
+      "Note Eco": "6/10"
+    },
+    "2": {
+      "Nom": "Berline", 
+      "Poid Moyen": "1300-1800", 
+      "Note Eco": "6,5/10"
+    },
+    "3": {
+      "Nom": "SUV / 4x4", 
+      "Poid Moyen": "1500-2500", 
+      "Note Eco": "4/10"
+    },
+  "Energie": {
+    "0": {
+      "Nom": "Essence", 
+      "Note Eco": "5/10"
+    },
+    "1": {
+      "Nom": "Electrique", 
+      "Note Eco": "9/10"
+    },
+    "2": {
+      "Nom": "Gaz", 
+      "Note Eco": "6/10"
+    },
+    "3": {
+      "Nom": "Diesel", 
+      "Note Eco": "4/10"
+    },
+
+    
+}
